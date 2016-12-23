@@ -58,4 +58,13 @@
   <ItemGroup>
     <Folder Include="Properties" />
   </ItemGroup>
+  <ItemGroup>
+    <Build Include="ControllerDataTable.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <RefactorLog Include="DatabaseV1.refactorlog" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DatabaseV1.publish.xml" />
+  </ItemGroup>
 </Project>

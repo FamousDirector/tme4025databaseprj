@@ -1,6 +1,6 @@
 ﻿CREATE TABLE [dbo].[ControllerDataTable]
 (
-	[Id] INT NOT NULL PRIMARY KEY, 
+	[Id] INT NOT NULL IDENTITY (1,1) PRIMARY KEY, 
     [UID] NVARCHAR(50) NOT NULL, 
     [RelayState] INT NOT NULL, 
     [Temperature] INT NOT NULL, 

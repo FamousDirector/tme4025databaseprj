@@ -21,4 +21,11 @@
     <Property Name="ParentElementType" Value="SqlTable" />
     <Property Name="NewName" Value="UserName" />
   </Operation>
+  <Operation Name="Rename Refactor" Key="e8399168-a2b4-4840-99f9-b64eebc40171" ChangeDateTime="01/04/2017 01:11:33">
+    <Property Name="ElementName" Value="[dbo].[UserDevices].[TimeZone]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[UserDevices]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="TimeZoneRegion" />
+  </Operation>
 </Operations>

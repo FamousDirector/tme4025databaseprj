@@ -1,0 +1,8 @@
+﻿CREATE TABLE [dbo].[NewRelayState]
+(
+	[Id] INT NOT NULL IDENTITY (1,1) PRIMARY KEY, 
+    [UID] NVARCHAR(50) NOT NULL UNIQUE, 
+    [NewState] INT NOT NULL, 
+    [EntryTime] DATETIME2 NOT NULL DEFAULT getdate()
+
+)
